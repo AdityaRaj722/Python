@@ -11,3 +11,10 @@ first progrsmmme""")
 print("this is new type to \n go to new line")
 
 #  this for commenting in python
+
+print(""" this is my 
+first progrsmmme""")
+
+print("this is new type to \n go to new line")
+
+#  this for commenting in python
