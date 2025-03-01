@@ -1,0 +1,389 @@
+Index: ProblemSolving/basic_questions.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProblemSolving/basic_questions.py b/ProblemSolving/basic_questions.py
+new file mode 100644
+--- /dev/null	(date 1740818897643)
++++ b/ProblemSolving/basic_questions.py	(date 1740818897643)
+@@ -0,0 +1,52 @@
++# write a program to display name ,age and address in different lines
++
++# name="Aditya"
++# age=21
++# address="Phagwara, Punjab"
++# print(name)
++# print(age)
++# print(address)
++
++# WAP to swap two numbers
++
++# a=12
++# b=15
++# method-1
++# a=a+b
++# b=a-b
++# a=a-b
++
++# method -2
++# a,b=b,a
++
++# print(a)
++# print(b)
++
++# wap to convert float into integer
++# a=12.56
++# print(type(a))
++# b=int(a)
++# print(type(b))
++
++# wap to take details from student for id-card then print it intodifferent lines
++
++# name=input("Enter the name of the student")
++# garde=input("Enter the garde")
++# age=int(input("enter the age of the student"))
++# email=input("Enter the email id")
++# ph_no=input("Enter the phine number ")
++# print("Student identity card")
++# print(name)
++# print(garde)
++# print(age)
++# print(email)
++# print(ph_no)
++
++# wap to take user input as integer then convert it into float
++
++a=int(input("Enter the num"))
++print(a)
++print(type(a))
++b=float(a)
++print("after conversion",b)
++print(type(b))
+\ No newline at end of file
+Index: Variables/first.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Variables/first.py b/Variables/first.py
+new file mode 100644
+--- /dev/null	(date 1740814484250)
++++ b/Variables/first.py	(date 1740814484250)
+@@ -0,0 +1,2 @@
++a="hello"
++print(a)
+\ No newline at end of file
+Index: Variables/datatypes.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Variables/datatypes.py b/Variables/datatypes.py
+new file mode 100644
+--- /dev/null	(date 1740817466125)
++++ b/Variables/datatypes.py	(date 1740817466125)
+@@ -0,0 +1,11 @@
++name = input("Enter your name here")
++print(name)
++
++age= int(input("Enter your age"))
++print( age)
++
++salary=float(input("Enter your salary"))
++print(salary)
++
++exp1 =eval(input("Enter your expression"))
++print(exp1)
+\ No newline at end of file
+Index: Variables/typeCasting.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Variables/typeCasting.py b/Variables/typeCasting.py
+new file mode 100644
+--- /dev/null	(date 1740817709361)
++++ b/Variables/typeCasting.py	(date 1740817709361)
+@@ -0,0 +1,12 @@
++# name="jhon"
++# age=21
++# print(type(age))
++
++a="123"
++b=1.23
++a=int(a)
++print(type(a))
++print(type(b))
++
++c=a+b
++print(type(c))
+\ No newline at end of file
+Index: Operator&Operand/logicaloperator.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Operator&Operand/logicaloperator.py b/Operator&Operand/logicaloperator.py
+new file mode 100644
+--- /dev/null	(date 1740825820231)
++++ b/Operator&Operand/logicaloperator.py	(date 1740825820231)
+@@ -0,0 +1,7 @@
++# and if both are true
++# or either one of them is true
++# not true if false and false if true
++
++print(3>4 or 3<4)
++print(3>4 and 3<4)
++print(not (3>4 and 3<4))
+\ No newline at end of file
+Index: Operator&Operand/assignment&identity.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Operator&Operand/assignment&identity.py b/Operator&Operand/assignment&identity.py
+new file mode 100644
+--- /dev/null	(date 1740826067165)
++++ b/Operator&Operand/assignment&identity.py	(date 1740826067165)
+@@ -0,0 +1,7 @@
++# operators are =, += , -= , *=
++# is   is not
++
++a=1234
++b="1234"
++print(a is b)
++print( a is not b)
+\ No newline at end of file
+Index: Operator&Operand/bitwise.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Operator&Operand/bitwise.py b/Operator&Operand/bitwise.py
+new file mode 100644
+--- /dev/null	(date 1740829877895)
++++ b/Operator&Operand/bitwise.py	(date 1740829877895)
+@@ -0,0 +1,19 @@
++# AND(&)
++# OR(|)
++# XOR(^)
++# << zero fill left shift
++# >> zero fill right shift
++
++print(bin(15))
++print(10&8)
++print(10|8)
++print(10^8)
++print(10 << 2)
++print(10 >> 2)
++
++# membership operation
++# in
++#  not in
++
++a="hello"
++print("e" in a)
+Index: Operator&Operand/conditional.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Operator&Operand/conditional.py b/Operator&Operand/conditional.py
+new file mode 100644
+--- /dev/null	(date 1740831475644)
++++ b/Operator&Operand/conditional.py	(date 1740831475644)
+@@ -0,0 +1,40 @@
++# if , if-else , if-elif-else , nested ,shorthand if
++
++# a=10
++# if a >= 10:
++#     print(a)
++#
++# print("thank you")
++
++# a="Aditya"
++# if ("dit" in a):
++#     print(a)
++# else:
++#     print("waooooooo")
++
++# a=8
++# if a>=90:
++#     print("you can go to trip")
++# elif a>80 and a<90:
++#     print("you will get a new phone")
++# elif a>70 and a<=80:
++#     print("you will get a new book")
++# else:
++#     print("failllllllllllllllllllll")
++
++# nested
++# marks=87
++# if marks>=80:
++#     print("you will get a new phone")
++#     if marks >=95:
++#         print("you will to trip")
++# else:
++#     print("noooooothinggggggggg")
++
++# shorthand if
++# marks=87
++# if marks>=80: print("yoooooooooo well done")
++
++#  short hand if-else
++marks=87
++print("you will go to trip") if marks>=80 else print("no phone nothing")
+Index: Operator&Operand/arithematic.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Operator&Operand/arithematic.py b/Operator&Operand/arithematic.py
+new file mode 100644
+--- /dev/null	(date 1740825297433)
++++ b/Operator&Operand/arithematic.py	(date 1740825297433)
+@@ -0,0 +1,14 @@
++# basic mathematical operators
++# add=(+) , sub(-) , multi(*) , division(/)
++#  modulus(%) exponential(**) floar division(//)
++
++a=10
++b=6
++c=a+b
++d=a/b
++e=a%b
++f=a//b
++print(c)
++print(d)
++print(e)
++print(f)
+\ No newline at end of file
+Index: Operator&Operand/comparison.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Operator&Operand/comparison.py b/Operator&Operand/comparison.py
+new file mode 100644
+--- /dev/null	(date 1740825410356)
++++ b/Operator&Operand/comparison.py	(date 1740825410356)
+@@ -0,0 +1,13 @@
++# compare values
++#  < , <= , == , >= , > , !=
++
++a=10
++b=6
++c=a<b
++d=a<=b
++e=a==b
++f=a!=b
++print(c)
++print(d)
++print(e)
++print(f)
+\ No newline at end of file
+Index: ProblemSolving/operator&operandQuestions.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProblemSolving/operator&operandQuestions.py b/ProblemSolving/operator&operandQuestions.py
+new file mode 100644
+--- /dev/null	(date 1740833071856)
++++ b/ProblemSolving/operator&operandQuestions.py	(date 1740833071856)
+@@ -0,0 +1,62 @@
++# wap to check a number is positive or not
++
++# num=int(input("enter your number here"))
++# if num>0:
++#     print("num is positive")
++
++# wap to check a num is even or odd
++# num=int(input("enter your num here"))
++# if num%2==0:
++#     print("num is even")
++# elif num%2!=0:
++#     print("num is odd")
++# else:
++#     print(" enter a positive num")
++
++# wap to create area calculator
++# print("********Area claculator**************")
++# print("""press 1 to get area of square
++# press 2 to get area of rectangle
++# press 3 to get area of circle
++# press 4 to get area of triangle""")
++# choice=int(input("enter a number between 1-4:"))
++# if choice==1:
++#     side =float(input("enter the length of one side"))
++#     area=side*side
++#     print("The area od square is ",area)
++# elif choice==2:
++#     length=float(input("enter the length of rect"))
++#     breadth=float(input("enter the breadth of rect"))
++#     area=length*breadth
++#     print("The area of circle is",area)
++# elif choice==3:
++#     radius=float(input("enter the raduis of circle"))
++#     area=(22/7)*radius**2
++#     print("The area of circel is",area)
++# elif choice==4:
++#     base=float(input("enter the base of triangle"))
++#     heigth=float(input("enter the heigth of triangle"))
++#     area=0.5*base*heigth
++#     print("The area of triangle is", area)
++# else:
++#     print("invalid input")
++
++# wap check passed letter is vowel or not
++# letter = input("enetr a letter here:")
++# if letter in "aeiou" or letter in "AEIOU":
++#     print("it is a vowel")
++# else:
++#     print("it is not a vowel")
++
++# wap if a num is sigle double upto five digit
++num=int(input("enter digit upto five digit"))
++if num>=0 and num<=9:
++    print("the num is single digit",num)
++elif num>=10 and num<=99:
++    print("the num is double digit",num)
++elif num>=100 and num<=999:
++    print("the num is triple digit",num)
++elif num>=1000 and num<=9999:
++    print("the num is four digit",num)
++else:
++    print("the num is five digit",num)
+\ No newline at end of file
+Index: myfirstprog.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"Hello\")\r\nnum1=5\r\nnum2=10\r\n\r\nsum=num1+num2\r\nprint(sum)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/myfirstprog.py b/myfirstprog.py
+--- a/myfirstprog.py	(revision 018f5c7f7ab2e5f3bb46c46d4e0df0eef1a5c5ef)
++++ b/myfirstprog.py	(date 1740814448206)
+@@ -3,4 +3,11 @@
+ num2=10
+ 
+ sum=num1+num2
+-print(sum)
+\ No newline at end of file
++print(sum)
++
++print(""" this is my 
++first progrsmmme""")
++
++print("this is new type to \n go to new line")
++
++#  this for commenting in python
+\ No newline at end of file
+diff --git a/ProblemSolving/__init__.py b/ProblemSolving/__init__.py
+new file mode 100644
+diff --git a/Variables/__init__.py b/Variables/__init__.py
+new file mode 100644
+diff --git a/Operator&Operand/__init__.py b/Operator&Operand/__init__.py
+new file mode 100644
