@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Dictinoary">
-      <change afterPath="$PROJECT_DIR$/Set/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/set_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/set_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/set_function2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/set_problem.py" afterDir="false" />
+    <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Set">
+      <change afterPath="$PROJECT_DIR$/PythonFunctions/Global&amp;localVariable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonFunctions/Return&amp;Recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonFunctions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonFunctions/function_problems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonFunctions/functions_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonFunctions/lambdaFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonFunctions/parameter&amp;arguments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,15 +52,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Global&localVariable.executor": "Run",
     "Python.List_problem.executor": "Run",
+    "Python.Return&Recursion.executor": "Run",
     "Python.basic.executor": "Run",
     "Python.first.executor": "Run",
+    "Python.function_problems.executor": "Debug",
     "Python.functions1.executor": "Run",
+    "Python.functions_basic.executor": "Run",
+    "Python.lambdaFunction.executor": "Run",
     "Python.list_comprehension.executor": "Run",
     "Python.list_function.executor": "Run",
     "Python.list_function2.executor": "Run",
     "Python.myfirstprog.executor": "Run",
     "Python.nested_dict.executor": "Run",
+    "Python.parameter&arguments.executor": "Run",
     "Python.practice.executor": "Run",
     "Python.problemsolving.executor": "Run",
     "Python.set_basic.executor": "Run",
@@ -73,10 +81,33 @@
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.function_problems">
+    <configuration name="function_problems" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonFunctions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonFunctions/function_problems.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -101,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.function_problems" />
         <item itemvalue="Python.practice" />
       </list>
     </recent_temporary>
@@ -178,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741286693214</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Set">
+      <option name="closed" value="true" />
+      <created>1741322787449</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741322787449</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Set">
+      <option name="closed" value="true" />
+      <created>1741322847077</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741322847077</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +246,8 @@
     <MESSAGE value="Dictionary" />
     <MESSAGE value="Tuples" />
     <MESSAGE value="Dictinoary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dictinoary" />
+    <MESSAGE value="Merge remote-tracking branch 'github/master'" />
+    <MESSAGE value="Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set" />
   </component>
 </project>
