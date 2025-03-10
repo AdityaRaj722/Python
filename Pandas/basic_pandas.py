@@ -1,13 +1,15 @@
 import pandas as pd
 
-# Creating a simple DataFrame
-data = {
-    'Name': ['Alice', 'Bob', 'Charlie'],
-    'Age': [25, 30, 35],
-    'City': ['New York', 'Los Angeles', 'Chicago']
-}
+# panel data or python data analysis
 
-df = pd.DataFrame(data)
+# data framing
+data={"Name":["Adi","Jhon","Lisa"],
+      "Age":[25,28,31],
+      "Salary":[30000,40000,45672]}
 
-# Display the DataFrame
+df=pd.DataFrame(data)
 print(df)
+# if i have a csf file or a data set and convert backward slash to forward if file in another folder
+
+# data=pd.read_csv("customer_csv")
+# data=pd.read_excel("file name with extension")

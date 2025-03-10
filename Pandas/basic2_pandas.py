@@ -1,13 +1,16 @@
 import pandas as pd
 
-# Creating a simple DataFrame
-data = {
-    'Name': ['Alice', 'Bob', 'Charlie'],
-    'Age': [25, 30, 35],
-    'City': ['New York', 'Los Angeles', 'Chicago']
-}
+# exploring data in pandas
+# data=pd.read_excel("expense3.xlsx")
+# print(data)
+data=pd.read_excel("ESD.xlsx")
+# for showing starting 10 rows
+# print(data)
+# print(data.head(10))  #default it will print 5 values
+# print(data.tail(10))
 
-df = pd.DataFrame(data)
+# print(data.info)
+#
+# print(data.describe())
 
-# Display the DataFrame
-print(df)
+print(data.isnull().sum())

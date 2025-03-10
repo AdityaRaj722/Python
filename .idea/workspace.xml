@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Set">
-      <change afterPath="$PROJECT_DIR$/PythonFunctions/Global&amp;localVariable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonFunctions/Return&amp;Recursion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonFunctions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonFunctions/function_problems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonFunctions/functions_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonFunctions/lambdaFunction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonFunctions/parameter&amp;arguments.py" afterDir="false" />
+    <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Pandas">
+      <change afterPath="$PROJECT_DIR$/Pandas/ESD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas/company.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas/company1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas/expense3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas/handle_duplacates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas/missing_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List/list_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/list_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/basic2_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/basic2_pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/basic_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/basic_pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Set/set_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Set/set_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +61,18 @@
     &quot;Python.List_problem.executor&quot;: &quot;Run&quot;,
     &quot;Python.Return&amp;Recursion.executor&quot;: &quot;Run&quot;,
     &quot;Python.basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic2_pandas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_pandas.executor&quot;: &quot;Run&quot;,
     &quot;Python.first.executor&quot;: &quot;Run&quot;,
     &quot;Python.function_problems.executor&quot;: &quot;Debug&quot;,
     &quot;Python.functions1.executor&quot;: &quot;Run&quot;,
     &quot;Python.functions_basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handle_duplacates.executor&quot;: &quot;Run&quot;,
     &quot;Python.lambdaFunction.executor&quot;: &quot;Run&quot;,
     &quot;Python.list_comprehension.executor&quot;: &quot;Run&quot;,
     &quot;Python.list_function.executor&quot;: &quot;Run&quot;,
     &quot;Python.list_function2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.missing_data.executor&quot;: &quot;Run&quot;,
     &quot;Python.myfirstprog.executor&quot;: &quot;Run&quot;,
     &quot;Python.nested_dict.executor&quot;: &quot;Run&quot;,
     &quot;Python.parameter&amp;arguments.executor&quot;: &quot;Run&quot;,
@@ -79,14 +88,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/adity/IdeaProjects/Python/Pandas&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.function_problems">
-    <configuration name="function_problems" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adity\IdeaProjects\Python\Pandas" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="first" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonFunctions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/List" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonFunctions/function_problems.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/List/first.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="handle_duplacates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/handle_duplacates.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,12 +145,72 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.function_problems" />
-        <item itemvalue="Python.practice" />
-      </list>
-    </recent_temporary>
+    <configuration name="missing_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/missing_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="set_basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Set" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Set/set_basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="set_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Set" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Set/set_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -226,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741322847077</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Pandas">
+      <option name="closed" value="true" />
+      <created>1741629962372</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741629962372</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,8 +329,9 @@
     <MESSAGE value="Dictionary" />
     <MESSAGE value="Tuples" />
     <MESSAGE value="Dictinoary" />
-    <MESSAGE value="Merge remote-tracking branch 'github/master'" />
     <MESSAGE value="Set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set" />
+    <MESSAGE value="Merge remote-tracking branch 'github/master'" />
+    <MESSAGE value="Pandas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pandas" />
   </component>
 </project>
