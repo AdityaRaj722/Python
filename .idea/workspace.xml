@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Pandas">
-      <change afterPath="$PROJECT_DIR$/Pandas/Compare_dataframe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas/Group_By.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas/Merge_Join_Concatination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas/Transforming_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas/practice_1.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/first.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List/list_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/list_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/Pivoting&amp;Melting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Pivoting&amp;Melting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Set/set_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_basic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Set/set_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/String/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/first.py" afterDir="false" />
@@ -60,6 +56,7 @@
     "Python.Group_By.executor": "Run",
     "Python.List_problem.executor": "Run",
     "Python.Merge_Join_Concatination.executor": "Run",
+    "Python.Pivoting&Melting.executor": "Run",
     "Python.Return&Recursion.executor": "Run",
     "Python.Transforming_data.executor": "Run",
     "Python.basic.executor": "Run",
@@ -102,7 +99,7 @@
       <recent name="C:\Users\adity\IdeaProjects\Python\Pandas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Compare_dataframe">
+  <component name="RunManager" selected="Python.Pivoting&amp;Melting">
     <configuration name="Compare_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -139,6 +136,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Merge_Join_Concatination.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Pivoting&amp;Melting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Pivoting&amp;Melting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,30 +210,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="set_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Set" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Set/set_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Pivoting&amp;Melting" />
         <item itemvalue="Python.Compare_dataframe" />
         <item itemvalue="Python.Merge_Join_Concatination" />
         <item itemvalue="Python.first" />
@@ -327,7 +325,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741715954910</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Pandas">
+      <option name="closed" value="true" />
+      <created>1741801019931</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741801019932</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Pandas">
+      <option name="closed" value="true" />
+      <created>1741801894245</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741801894245</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
