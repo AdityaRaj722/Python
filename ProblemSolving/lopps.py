@@ -13,12 +13,13 @@
 
 # wap first 10 odd number using while loop
 # sum=0;
-# i=0;
-# while(i<=20):
-#     if i%2!=0:
-#         sum+=i
-#     i+=1
-# print(sum)
+i=0;
+while(i<=20):
+    if i%2!=0:
+        sum+=i
+    i+=1
+
+print(sum)
 
 # wap check if num divisible by 8 and 12 upto 100
 # for i in range (101):

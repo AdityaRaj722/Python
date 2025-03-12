@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Pandas">
+    <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Matplotlib">
+      <change afterPath="$PROJECT_DIR$/Matplotlib/Scalar_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/basic_matplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/expense3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/line_plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/first.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List/list_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/list_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/Pivoting&amp;Melting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Pivoting&amp;Melting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSolving/lopps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/lopps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Set/set_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_basic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Set/set_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/String/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/first.py" afterDir="false" />
@@ -61,6 +66,7 @@
     "Python.Transforming_data.executor": "Run",
     "Python.basic.executor": "Run",
     "Python.basic2_pandas.executor": "Run",
+    "Python.basic_matplot.executor": "Run",
     "Python.basic_pandas.executor": "Run",
     "Python.first.executor": "Run",
     "Python.function_problems.executor": "Debug",
@@ -68,6 +74,7 @@
     "Python.functions_basic.executor": "Run",
     "Python.handle_duplacates.executor": "Run",
     "Python.lambdaFunction.executor": "Run",
+    "Python.line_plot.executor": "Run",
     "Python.list_comprehension.executor": "Run",
     "Python.list_function.executor": "Run",
     "Python.list_function2.executor": "Run",
@@ -87,7 +94,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/adity/IdeaProjects/Python/Pandas",
+    "last_opened_file_path": "C:/Users/adity/IdeaProjects/Python/Matplotlib",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -96,10 +103,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adity\IdeaProjects\Python\Matplotlib" />
       <recent name="C:\Users\adity\IdeaProjects\Python\Pandas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Pivoting&amp;Melting">
+  <component name="RunManager" selected="Python.line_plot">
     <configuration name="Compare_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -166,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="basic2_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="basic_matplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,11 +183,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/basic2_pandas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/basic_matplot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="line_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,11 +205,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String/first.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/line_plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.line_plot" />
+        <item itemvalue="Python.basic_matplot" />
         <item itemvalue="Python.Pivoting&amp;Melting" />
         <item itemvalue="Python.Compare_dataframe" />
         <item itemvalue="Python.Merge_Join_Concatination" />
-        <item itemvalue="Python.first" />
-        <item itemvalue="Python.basic2_pandas" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741801894245</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Pandas">
+      <option name="closed" value="true" />
+      <created>1741805467315</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741805467315</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,8 +378,9 @@
     <MESSAGE value="Tuples" />
     <MESSAGE value="Dictinoary" />
     <MESSAGE value="Set" />
-    <MESSAGE value="Merge remote-tracking branch 'github/master'" />
     <MESSAGE value="Pandas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pandas" />
+    <MESSAGE value="Merge remote-tracking branch 'github/master'" />
+    <MESSAGE value="Matplotlib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matplotlib" />
   </component>
 </project>
