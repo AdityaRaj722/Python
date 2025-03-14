@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Matplotlib">
-      <change afterPath="$PROJECT_DIR$/Matplotlib/Scalar_plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matplotlib/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matplotlib/basic_matplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matplotlib/expense3.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matplotlib/line_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/Box_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/ESD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/Histtogram_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/Pie_chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/Stack_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/Stem_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/Step_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/food_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/legend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/volin_plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/first.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List/list_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/list_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProblemSolving/lopps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/lopps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matplotlib/Scalar_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib/Scalar_plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Set/set_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_basic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Set/set_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/String/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/first.py" afterDir="false" />
@@ -56,13 +61,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Box_plot.executor": "Run",
     "Python.Compare_dataframe.executor": "Run",
     "Python.Global&localVariable.executor": "Run",
     "Python.Group_By.executor": "Run",
+    "Python.Histtogram_plot.executor": "Run",
     "Python.List_problem.executor": "Run",
     "Python.Merge_Join_Concatination.executor": "Run",
+    "Python.Pie_chart.executor": "Run",
     "Python.Pivoting&Melting.executor": "Run",
     "Python.Return&Recursion.executor": "Run",
+    "Python.Scalar_plot.executor": "Run",
+    "Python.Stack_plot.executor": "Run",
+    "Python.Stem_plot.executor": "Run",
+    "Python.Step_plot.executor": "Run",
     "Python.Transforming_data.executor": "Run",
     "Python.basic.executor": "Run",
     "Python.basic2_pandas.executor": "Run",
@@ -91,6 +103,7 @@
     "Python.tuples&function.executor": "Run",
     "Python.tuples_basic.executor": "Run",
     "Python.tuples_problem.executor": "Run",
+    "Python.volin_plot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -107,74 +120,8 @@
       <recent name="C:\Users\adity\IdeaProjects\Python\Pandas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.line_plot">
-    <configuration name="Compare_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Compare_dataframe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Merge_Join_Concatination" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Merge_Join_Concatination.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Pivoting&amp;Melting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Pivoting&amp;Melting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="basic_matplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Box_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +134,73 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/basic_matplot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/Box_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scalar_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/Scalar_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Stack_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/Stack_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Stem_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/Stem_plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Stack_plot" />
+        <item itemvalue="Python.Stem_plot" />
+        <item itemvalue="Python.Box_plot" />
+        <item itemvalue="Python.Scalar_plot" />
         <item itemvalue="Python.line_plot" />
-        <item itemvalue="Python.basic_matplot" />
-        <item itemvalue="Python.Pivoting&amp;Melting" />
-        <item itemvalue="Python.Compare_dataframe" />
-        <item itemvalue="Python.Merge_Join_Concatination" />
       </list>
     </recent_temporary>
   </component>
