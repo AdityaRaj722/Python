@@ -37,5 +37,6 @@ plt.title("Expenses by Payment Mode")
 # Rotate x-axis labels for better readability
 plt.xticks(rotation=45)
 
+plt.savefig("bar.png")
 # Show plot
 plt.show()
