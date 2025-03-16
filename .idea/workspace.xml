@@ -5,15 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="684c7ae7-ae9c-49e4-8220-62e4f71dbe59" name="Changes" comment="Matplotlib">
-      <change afterPath="$PROJECT_DIR$/Matplotlib/Subplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matplotlib/bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matplotlib/pie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/Barplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/Count_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/ESD.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/HeatMap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/Histogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/KDE_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/Multiple_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/Relational_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/Scatter_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/Swarm_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/box_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/categeorical_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/expense3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/food_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/line_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/pair_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/strip_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/style&amp;color.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seaborn/violin_plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/first.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/List/list_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/List/list_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matplotlib/Pie_chart.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib/Pie_chart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matplotlib/basic_matplot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib/basic_matplot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matplotlib/legend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib/legend.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Set/set_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_basic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Set/set_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Set/set_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/String/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/String/first.py" afterDir="false" />
@@ -59,26 +73,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Barplot.executor": "Run",
     "Python.Box_plot.executor": "Run",
     "Python.Compare_dataframe.executor": "Run",
+    "Python.Count_map.executor": "Run",
     "Python.Global&localVariable.executor": "Run",
     "Python.Group_By.executor": "Run",
+    "Python.HeatMap.executor": "Run",
+    "Python.Histogram.executor": "Run",
     "Python.Histtogram_plot.executor": "Run",
+    "Python.KDE_plot.executor": "Run",
     "Python.List_problem.executor": "Run",
     "Python.Merge_Join_Concatination.executor": "Run",
+    "Python.Multiple_plot.executor": "Run",
     "Python.Pie_chart.executor": "Run",
     "Python.Pivoting&Melting.executor": "Run",
+    "Python.Relational_plot.executor": "Run",
     "Python.Return&Recursion.executor": "Run",
     "Python.Scalar_plot.executor": "Run",
+    "Python.Scatter_plot.executor": "Run",
     "Python.Stack_plot.executor": "Run",
     "Python.Stem_plot.executor": "Run",
     "Python.Step_plot.executor": "Run",
     "Python.Subplot.executor": "Run",
+    "Python.Swarm_plot.executor": "Run",
     "Python.Transforming_data.executor": "Run",
     "Python.basic.executor": "Run",
     "Python.basic2_pandas.executor": "Run",
     "Python.basic_matplot.executor": "Run",
     "Python.basic_pandas.executor": "Run",
+    "Python.box_plot.executor": "Run",
+    "Python.categeorical_plot.executor": "Run",
     "Python.first.executor": "Run",
     "Python.function_problems.executor": "Debug",
     "Python.functions1.executor": "Run",
@@ -86,6 +111,7 @@
     "Python.handle_duplacates.executor": "Run",
     "Python.lambdaFunction.executor": "Run",
     "Python.legend.executor": "Run",
+    "Python.line_graph.executor": "Run",
     "Python.line_plot.executor": "Run",
     "Python.list_comprehension.executor": "Run",
     "Python.list_function.executor": "Run",
@@ -93,6 +119,7 @@
     "Python.missing_data.executor": "Run",
     "Python.myfirstprog.executor": "Run",
     "Python.nested_dict.executor": "Run",
+    "Python.pair_plot.executor": "Run",
     "Python.parameter&arguments.executor": "Run",
     "Python.practice.executor": "Run",
     "Python.problemsolving.executor": "Run",
@@ -100,14 +127,17 @@
     "Python.set_function.executor": "Run",
     "Python.set_function2.executor": "Run",
     "Python.set_problem.executor": "Run",
+    "Python.strip_plot.executor": "Run",
+    "Python.style&color.executor": "Run",
     "Python.tuples&function.executor": "Run",
     "Python.tuples_basic.executor": "Run",
     "Python.tuples_problem.executor": "Run",
+    "Python.violin_plot.executor": "Run",
     "Python.volin_plot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/adity/IdeaProjects/Python/Matplotlib",
+    "last_opened_file_path": "C:/Users/adity/IdeaProjects/Python/Seaborn",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -116,33 +146,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adity\IdeaProjects\Python\Seaborn" />
       <recent name="C:\Users\adity\IdeaProjects\Python\Matplotlib" />
       <recent name="C:\Users\adity\IdeaProjects\Python\Pandas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Pie_chart">
-    <configuration name="Box_plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/Box_plot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Pie_chart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -231,13 +240,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="line_graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seaborn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seaborn/line_graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.line_graph" />
         <item itemvalue="Python.Pie_chart" />
         <item itemvalue="Python.basic_matplot" />
         <item itemvalue="Python.Stack_plot" />
         <item itemvalue="Python.Stem_plot" />
-        <item itemvalue="Python.Box_plot" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742053750851</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Matplotlib">
+      <option name="closed" value="true" />
+      <created>1742123863136</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1742123863136</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
